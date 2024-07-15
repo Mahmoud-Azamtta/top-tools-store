@@ -1,0 +1,8 @@
+Flask
+flask-cors
+pydantic
+arabic_reshaper
+python-bidi
+scikit-learn
+numpy
+pymongo
