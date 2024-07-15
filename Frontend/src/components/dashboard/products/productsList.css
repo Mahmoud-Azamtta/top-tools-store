@@ -1,0 +1,150 @@
+.dashboard-options-dropdown {
+  background-color: #f1eeee !important;
+}
+.variant-header,
+.product-wrapper {
+  background-color: #f1eeee !important;
+}
+
+.sub-title,
+.variant-header {
+  background-color: #cfe2ff;
+}
+
+.product-name-link:hover {
+  color: #555 !important;
+  text-decoration: underline !important;
+}
+
+.update-product-card {
+  width: 90%;
+}
+
+.attribute-label {
+  border: 1px solid var(--mainDarkColor) !important;
+  border-radius: 0.4rem;
+  padding: 0.25rem 0;
+}
+
+.remove-variant-btn,
+.remove-attribute-btn {
+  width: 1.7rem;
+  height: 1.7rem;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.remove-attribute-btn {
+  top: -0.7rem;
+  right: -0.7rem;
+}
+
+.remove-variant-btn {
+  top: -0.7rem;
+  left: 0;
+}
+
+.add-new-btn {
+  border: 1px solid #f19f18bb !important;
+  background-color: #efefef !important;
+  border-radius: 0.4rem !important;
+  display: block !important;
+  width: 100% !important;
+  padding: 0.25rem 0 !important;
+  transition: background-color 0.25s !important;
+}
+
+.add-new-btn:hover {
+  background-color: #fff !important;
+}
+
+.product-image:focus,
+.product-image:active,
+.attribute-input:focus,
+.product-description-field:focus {
+  border-color: var(--mainDarkColor) !important;
+  box-shadow: 0 0 0 0.25rem rgba(241, 159, 24, 0.25) !important;
+  resize: none;
+}
+
+/* background-color: #f19f18 !important; */
+
+.pagination .page-item.active .page-link {
+  background-color: #f19f18 !important;
+}
+
+.pagination .page-link {
+  color: #282828;
+}
+
+.pagination .page-link:hover {
+  background-color: #f19f18 !important;
+  color: white;
+}
+
+.pagination .page-link:focus {
+  box-shadow: 0 0 0 0.25rem rgba(241, 159, 24, 0.25) !important;
+  color: #6c757d !important;
+}
+
+.pagination .page-link:active {
+  box-shadow: 0 0 0 0.25rem rgba(241, 159, 24, 0.25) !important;
+  color: #6c757d !important;
+}
+
+.db-pagination .page-item.disabled .page-link {
+  color: #6c757d;
+}
+.pagination .page-prev {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.25rem rgba(241, 159, 24, 0.25) !important;
+  border-color: #f19f18 !important;
+}
+
+/* .select-option { */
+/*   background-color: #f19f18 !important; */
+/* } */
+
+.loader-wrapper {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (min-width: 576px) {
+  .update-product-card {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .update-product-card {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .update-product-card {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .update-product-card {
+    width: 80%;
+  }
+}

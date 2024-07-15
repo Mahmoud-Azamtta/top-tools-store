@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+body {
+  --mainDarkColor: #f19f18;
+  --mainLightColor: #facb7f;
+  --primary-color: #f19f18;
+  --primary-active: #e09314;
+  --grayColor: #282828;
+  font-family: "Tajawal", sans-serif !important;
+}
+
+.bg-main-dark {
+  background-color: var(--mainDarkColor) !important;
+}
+.bg-main-light {
+  background-color: var(--mainLightColor) !important;
+}
+.text-main-dark {
+  color: var(--mainDarkColor) !important;
+}
+.text-main-light {
+  color: var(--mainLightColor) !important;
+}
+.wrapper {
+  min-height: 100vh;
+  padding-top: 4rem;
+}
+
+.text-gray {
+  color: #282828 !important;
+}
+.rbt-menu {
+  margin-top: 0.5rem !important;
+}
+
+.rbt-input:focus {
+  border-color: var(--mainDarkColor) !important;
+  box-shadow: 0 0 0 0.25rem rgba(241, 159, 24, 0.25) !important;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #909090 !important;
+}
+
+.form-control:focus {
+  border-color: #f19f18 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 0.2rem rgba(241, 159, 24, 0.5) !important;
+}

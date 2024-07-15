@@ -1,0 +1,44 @@
+.coupon-card {
+  border: 1px solid #888;
+  border-radius: 0.25em;
+  position: relative;
+  overflow: hidden;
+}
+
+.coupon-card::after {
+  content: "%";
+  position: absolute;
+  top: -0.2em;
+  left: 0.5em;
+  color: #eee;
+  font-weight: bold;
+  font-size: 16em;
+  z-index: -1;
+}
+
+.coupon-name {
+  border-top: 1px dashed #888;
+  border-bottom: 1px dashed #888;
+  padding: 1em 0;
+}
+
+.coupon-btn {
+  padding: 0.5em;
+}
+
+.coupon-btn.update {
+  top: 0.5em;
+  right: 0.5em;
+  z-index: 100;
+}
+
+.coupon-btn.delete {
+  top: 0.5em;
+  left: 0.5em;
+  z-index: 100;
+}
+
+.date-picker:focus {
+  border: 1px solid var(--main) !important;
+  box-shadow: 0 0 0 0.25rem rgba(104, 157, 106, 0.25) !important;
+}

@@ -1,0 +1,162 @@
+{
+  "categories" : [
+     {
+       "id":"1",
+       "categoryName": "الأدوات اليدوية",
+       "categoryimage":"/images/products/3e3fa932561e25752367ca352d07b69e.jpg",
+       "subcategories": [
+         {
+           "id":"1",
+           "subcategoryName": "مطارق"
+         },
+         {
+           "id":"2",
+           "subcategoryName": "مفكات"
+         },
+         {
+           "id":"3",
+           "subcategoryName": "كماشات"
+         },
+         {
+           "id":"4",
+           "subcategoryName": "مفاتيح ربط"
+         },
+         {
+           "id":"5",
+           "subcategoryName": "مناشير يدوية"
+         },
+         {
+           "id":"6",
+           "subcategoryName": "مسننات"
+         }
+       ]
+     },
+     {
+       "id":"2",
+       "categoryName": "أدوات القياس والتخطيط",
+       "categoryimage":"/images/products/3e3fa932561e25752367ca352d07b69e.jpg",
+       "subcategories": [
+         {
+           "id":"1",
+           "subcategoryName": "مسطرة قياس"
+         },
+         {
+           "id":"2",
+           "subcategoryName": "مستوي"
+         },
+         {
+           "id":"3",
+           "subcategoryName": "مربع"
+         },
+         {
+           "id":"4",
+           "subcategoryName": "قياسات الكاليبر"
+         }
+       ]
+     },
+     {
+       "id":"3",
+       "categoryName": "مواد البناء",
+       "categoryimage":"/images/products/3e3fa932561e25752367ca352d07b69e.jpg",
+       "subcategories": [
+         {
+           "id":"1",
+           "subcategoryName": "الخشب"
+         },
+         {
+           "id":"2",
+           "subcategoryName": "الخشب الرقائقي"
+         },
+         {
+           "id":"3",
+           "subcategoryName": "العزل"
+         },
+         {
+           "id":"4",
+           "subcategoryName": "الخرسانة"
+         },
+         {
+           "id":"5",
+           "subcategoryName": "الطوب والكتل"
+         }
+       ]
+     },
+     {
+       "id":"4",
+       "categoryName": "مستلزمات الطلاء",
+       "categoryimage":"/images/products/3e3fa932561e25752367ca352d07b69e.jpg",
+       "subcategories": [
+         {
+           "id":"1",
+           "subcategoryName": "فرش الطلاء"
+         },
+         {
+           "id":"2",
+           "subcategoryName": "أسطوانات الطلاء وصوانيه"
+         },
+         {
+           "id":"3",
+           "subcategoryName": "رشاشات الطلاء"
+         },
+         {
+           "id":"4",
+           "subcategoryName": "غطاء السقوط"
+         },
+         {
+           "id":"5",
+           "subcategoryName": "شريط رسام"
+         },
+         {
+           "id":"6",
+           "subcategoryName": "مذيبات الطلاء"
+         }
+       ]
+     },
+     {
+       "id":"5",
+       "categoryName": "مسلتزمات الكهرباء",
+       "categoryimage":"/images/products/3e3fa932561e25752367ca352d07b69e.jpg",
+       "subcategories": [
+         {
+           "id":"1",
+           "subcategoryName": "الأسلاك"
+         },
+         {
+           "id":"2",
+           "subcategoryName": "صناديق الكهرباء"
+         },
+         {
+           "id":"3",
+           "subcategoryName": "المفاتيح"
+         }
+       ]
+     },
+     {
+       "id":"6",
+       "categoryName": "مستلزمات السباكة",
+       "categoryimage":"/images/products/3e3fa932561e25752367ca352d07b69e.jpg",
+       "subcategories": [
+         {
+           "id":"1",
+           "subcategoryName": "الأنابيب"
+         },
+         {
+           "id":"2",
+           "subcategoryName": "الصمامات"
+         },
+         {
+           "id":"3",
+           "subcategoryName": "عزل الأنابيب"
+         },
+         {
+           "id":"4",
+           "subcategoryName": "مقطاعات الأنابيب"
+         },
+         {
+           "id":"5",
+           "subcategoryName": "المكبس"
+         }
+       ]
+     }
+   ]
+}

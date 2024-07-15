@@ -1,0 +1,13 @@
+@import url("../../../index.css");
+
+.nav-link.active{
+    background-color: var(--mainLightColor) !important ;
+    border-bottom: 7px solid white;
+}
+
+.PersonalInfo .form-control:focus {
+    border-color: #f19f18!important; 
+    outline: none!important;
+    box-shadow: 0 0 0 0.2rem rgba(241, 159, 24, 0.5) !important;
+  }
+  

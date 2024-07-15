@@ -1,0 +1,89 @@
+.dashboard-sidebar {
+  background-color: #282828 !important;
+  width: 15% !important;
+  color: #d8d8d8 !important;
+}
+
+.dashboard-sidebar h1 {
+  border-color: #414141 !important;
+}
+
+.dashboard-sidebar-navs a {
+  color: #d8d8d8;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.dashboard-sidebar-navs a:hover {
+  background-color: #363333 !important;
+}
+
+.sidebar-wrapper {
+  height: 90%;
+}
+
+.signout-btn {
+  color: #d8d8d8 !important;
+  background-color: #d8d8d8 !important;
+  color: #363333 !important;
+  font-weight: bold !important;
+}
+
+.fill-black {
+  fill: #282828;
+}
+
+.stroke-black {
+  stroke: #282828;
+}
+
+.signout-btn svg {
+  fill: #363333;
+}
+
+.signout-btn:active {
+  background-color: #8c8c8c !important;
+}
+
+.dashboard-content {
+  width: 100% !important;
+}
+
+.dashboard-header {
+  margin-right: auto;
+}
+
+.dark-sidebar {
+  background-color: #282828 !important;
+}
+
+.offcanvas-sidebar-header {
+  border-bottom: 1px solid #414141;
+}
+
+.show-sidebar-btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  right: 1.5rem !important;
+  bottom: 1.5rem !important;
+  background-color: #f19f18 !important;
+  border-color: #e09314 !important;
+  z-index: 101;
+}
+
+.show-sidebar-btn:active {
+  background-color: #e09314 !important;
+}
+
+.offcanvas-sidebar-title {
+  color: #d8d8d8 !important;
+}
+
+@media (min-width: 992px) {
+  .dashboard-content {
+    width: 85% !important;
+  }
+}

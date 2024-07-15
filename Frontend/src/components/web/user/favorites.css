@@ -1,0 +1,34 @@
+.favText {
+  font-size: 10px;
+;
+}
+.bg-test {
+  background-color: #e8dfca;
+}
+
+.custom-card .card-img-top {
+  height: 200px !important; 
+  object-fit: cover;
+}
+
+.btnsFav {
+  margin-top: auto;
+}
+.btnsFav :hover {
+ color: black !important;
+ font-weight: 600;
+}
+.imgDiv {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgDiv img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+

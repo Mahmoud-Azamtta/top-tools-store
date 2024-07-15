@@ -1,0 +1,139 @@
+.auth-button {
+  background-color: #282828 !important;
+  border-color: #000 !important;
+}
+
+.auth-button:hover {
+  background-color: #484848 !important;
+}
+
+.auth-button:active {
+  background-color: #383838 !important;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  background-image: url("/images/vector-art-5.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: 10% 80%;
+}
+
+.auth-card {
+  width: 90%;
+  padding: 2rem 1rem;
+  margin: 6rem 0;
+  height: fit-content;
+}
+
+.auth-title {
+  color: var(--textGray);
+  border-bottom: 1px solid var(--grayColor);
+}
+
+.auth-link {
+  color: var(--mainDarkColor);
+  text-decoration-color: var(--mainLightColor);
+}
+
+.auth-link:hover {
+  text-decoration-color: var(--mainDarkColor);
+}
+
+.auth-link:active {
+  color: var(--mainLightColor);
+}
+
+.link-side {
+  border-top: 1px solid var(--grayColor);
+}
+
+.toggle {
+  border: 1px solid var(--mainDarkColor) !important;
+  color: var(--mainDarkColor) !important;
+}
+
+.toggle-checked {
+  background-color: var(--mainDarkColor) !important;
+  border: 1px solid var(--mainDarkColor) !important;
+  color: white !important;
+}
+
+.options-navs {
+  border-top: 1px solid var(--grayColor);
+}
+
+.nav-btn {
+  border: 1px solid var(--mainDarkColor) !important;
+  background-color: var(--mainLightColor) !important;
+}
+
+.nav-btn:hover {
+  background-color: var(--mainDarkColor) !important;
+  color: white !important;
+}
+
+.nav-btn svg g path {
+  transition: stroke 0.25s;
+}
+
+.nav-btn:hover svg g path {
+  stroke: #fff;
+}
+
+.custom-check .form-check-input:checked {
+  background-color: #1c1c1c !important;
+  border-color: #1c1c1caa !important;
+}
+
+.custom-check .form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(28, 28, 28, 0.25);
+  border-color: #1c1c1caa !important;
+}
+
+.custom-checkbox-label {
+  cursor: pointer;
+  user-select: none;
+}
+
+.address-description-textarea {
+  resize: none;
+}
+
+.address-description-textarea:focus {
+  border-color: var(--main) !important;
+  box-shadow: 0 0 0 0.25rem rgba(241, 159, 24, 0.25) !important;
+  resize: none;
+}
+
+.error-message {
+  background-color: #fee2e2;
+}
+
+@media (min-width: 576px) {
+  .auth-card {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .auth-card {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .auth-card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .auth-card {
+    width: 40%;
+  }
+}

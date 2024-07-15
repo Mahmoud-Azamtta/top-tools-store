@@ -1,0 +1,11 @@
+@import url("../../../index.css");
+ul.contact-info {
+    margin-right: -1rem !important;
+}
+
+.text-email{
+    color:white
+}
+.text-email:hover{
+    color:var(--mainDarkColor)
+}

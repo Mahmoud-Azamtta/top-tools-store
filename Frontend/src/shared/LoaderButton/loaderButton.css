@@ -1,0 +1,9 @@
+.loader-btn {
+  background-color: #427b58 !important;
+  border: 0 !important;
+  transition: background-color 0.2s !important;
+}
+
+.loader-btn:hover {
+  background-color: var(--mainDarkColor) !important;
+}

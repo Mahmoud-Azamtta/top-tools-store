@@ -1,0 +1,27 @@
+.update-button:hover svg,
+.delete-button:hover svg {
+  stroke: #fff !important;
+  fill: #fff !important;
+}
+
+.status-button {
+  background-color: #282828 !important;
+  border-color: #000 !important;
+}
+
+.status-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(28, 28, 28, 0.25);
+}
+
+.status-button:active {
+  box-shadow: none;
+}
+
+.subcategoDash li {
+  text-decoration-style: none !important;
+  -moz-text-decoration-style: none !important;
+}
+
+.inactive-bg {
+  background-color: #eaeaea;
+}

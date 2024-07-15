@@ -1,0 +1,136 @@
+.cart {
+  padding-top: 4rem;
+  min-height: 100vh;
+  font-size: 13px !important;
+}
+
+.quantity-button {
+  padding: 0.3rem !important;
+}
+
+.quantity-button svg path {
+  transition: stroke 0.2s;
+}
+
+.quantity-button:hover svg path {
+  stroke: #fff;
+}
+
+.cart-quantity {
+  font-size: 1rem;
+}
+
+.cart-product-img {
+  padding: 0.8rem !important;
+  padding-right: 1.5rem !important;
+}
+.cart-product .imgDiv {
+  height: 100px !important;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-product .imgDiv img {
+  height: 100% !important;
+  width: auto;
+  object-fit: contain;
+}
+
+.cart-remove-btn {
+  background-color: transparent;
+  margin-left: 1rem !important;
+  border: 1px solid #e02424;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+
+.cart-remove-btn svg {
+  transition: 0.2s;
+}
+
+.cart-remove-btn {
+  background-color: #fee2e2;
+}
+
+.cart-remove-btn:hover {
+  background-color: #e02424;
+}
+
+.cart-remove-btn:hover svg {
+  stroke: #fff;
+}
+
+.cart-product-price {
+  font-size: 1rem;
+}
+
+.cart-product-name {
+  font-size: 0.8rem;
+}
+
+.custom-radio:checked ~ label {
+  background-color: rgba(28, 28, 28, 0.1) !important;
+}
+
+.clear-button,
+.finish-button {
+  border: 1px solid !important;
+}
+
+.clear-button {
+  background-color: #fee2e2 !important;
+  border-color: #e02424 !important;
+  color: #e02424 !important;
+}
+
+.clear-button:hover {
+  background-color: #e02424 !important;
+  color: #fff !important;
+}
+
+.finish-button {
+  background-color: var(--mainDarkColor) !important;
+  border-color: var(--mainDarkColor) !important;
+  color: #fff !important;
+}
+
+.finish-button:hover {
+  background-color: var(--mainLightColor) !important;
+}
+
+.checkout-notes {
+  resize: none;
+}
+
+.checkout-input:focus {
+  border-color: var(--mainDarkColor) !important;
+  box-shadow: 0 0 0 0.25rem rgba(241, 159, 24, 0.25) !important;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .cart {
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .cart-product-price,
+  .cart-quantity {
+    font-size: 1.2rem;
+  }
+
+  .cart-product-name {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
